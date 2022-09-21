@@ -12,7 +12,7 @@ return [
     'parents' => 'أولياء الأمور',
     'accounts' => 'الحسابات',
     'attendance' => 'الحضور',
-    'Subjects' => 'المواد',
+    'subjects' => 'المواد الدراسية',
     'exams' => 'الامتحانات',
     'library' => 'المكتبة',
     'online_sessions' => 'حصص اونلاين',

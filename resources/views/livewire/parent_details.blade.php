@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    {{ __('parents.add_parent') }}
+    {{ __('parents.parents') }}
 @endsection
 
 @section('css')
@@ -11,12 +11,12 @@
     <div class="page-title">
         <div class="row">
             <div class="col-sm-6">
-                <h4 class="mb-0"> {{ __('parents.add_parent') }}</h4>
+                <h4 class="mb-0"> {{ __('parents.parents') }}</h4>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
                     <li class="breadcrumb-item"><a href="{{ route('dashboard') }}" class="default-color">{{ __('dashboard.dashboard') }}</a></li>
-                    <li class="breadcrumb-item active">{{ __('parents.add_parent') }}</li>
+                    <li class="breadcrumb-item active">{{ __('parents.parents') }}</li>
                 </ol>
             </div>
         </div>

@@ -3,6 +3,7 @@
 use App\Http\Controllers\ClassroomController;
 use App\Http\Controllers\GradeController;
 use App\Http\Controllers\StageController;
+use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -44,6 +45,8 @@ Route::group(
         Route::get('classrooms/gradesbystage/{stage_id}', [ClassroomController::class, 'gradesbystage']);
 
         Route::view('add_parent', 'livewire.parent_details')->name('add_parent');
+
+        Route::resource('teachers', TeacherController::class);
 
 
     }

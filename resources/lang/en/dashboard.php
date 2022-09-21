@@ -12,7 +12,7 @@ return [
     'parents' => 'Parents',
     'accounts' => 'Accounts',
     'attendance' => 'Attendance',
-    'Subjects' => 'Subjects',
+    'subjects' => 'Subjects',
     'exams' => 'Exams',
     'library' => 'Library',
     'online_sessions' => 'Online Sessions',

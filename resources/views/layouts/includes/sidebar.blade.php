@@ -56,12 +56,12 @@
 
             <!-- teachers -->
             <li>
-                <a href="javascript:void(0);" data-toggle="collapse" data-target="#elements">
+                <a href="javascript:void(0);" data-toggle="collapse" data-target="#teachers">
                     <div class="pull-left"><i class="fa fa-user-secret"></i><span class="right-nav-text">{{ __('dashboard.teachers') }}</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="elements" class="collapse" data-parent="#sidebarnav">
-                    <li><a href="{{ route('stages.index') }}">{{ __('stages.stages_list') }}</a></li>
+                <ul id="teachers" class="collapse" data-parent="#sidebarnav">
+                    <li><a href="{{ route('teachers.index') }}">{{ __('teachers.teachers_list') }}</a></li>
                 </ul>
             </li>
 
@@ -72,8 +72,8 @@
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
                 <ul id="parents" class="collapse" data-parent="#sidebarnav">
-                    <li><a href="{{ route('stages.index') }}">{{ __('parents.parents_list') }}</a></li>
-                    <li><a href="{{ route('add_parent') }}">{{ __('parents.add_parent') }}</a></li>
+                    <li><a href="{{ route('add_parent') }}">{{ __('parents.parents_list') }}</a></li>
+{{--                    <li><a href="{{ route('add_parent') }}">{{ __('parents.add_parent') }}</a></li>--}}
                 </ul>
             </li>
 
