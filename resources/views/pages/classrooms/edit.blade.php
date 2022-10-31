@@ -17,14 +17,14 @@
                     <div class="card-body">
                         <div class="row mb-10">
                             <div class="col">
-                                <label for="classroom_name_ar">{{ __('classrooms.ar_classroom_name') }} :</label>
-                                <input type="text" name="classroom_name_ar" class="form-control" value="{{ $classroom->getTranslation('name', 'ar') }}">
+                                <label for="classroom_name">{{ __('classrooms.classroom_name') }} :</label>
+                                <input type="text" name="classroom_name" class="form-control" value="{{ $classroom->name }}">
                             </div>
 
-                            <div class="col">
-                                <label for="classroom_name_en">{{ __('classrooms.en_classroom_name') }} :</label>
-                                <input type="text" name="classroom_name_en" class="form-control  "  value="{{ $classroom->getTranslation('name', 'en') }}">
-                            </div>
+{{--                            <div class="col">--}}
+{{--                                <label for="classroom_name_en">{{ __('classrooms.en_classroom_name') }} :</label>--}}
+{{--                                <input type="text" name="classroom_name_en" class="form-control  "  value="{{ $classroom->getTranslation('name', 'en') }}">--}}
+{{--                            </div>--}}
                         </div>
 
                         <div class="row mb-10">

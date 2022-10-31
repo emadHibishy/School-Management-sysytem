@@ -13,8 +13,8 @@
                     @method('DELETE')
                     <div class="row">
                         <div class="p-3 w-100">
-                            <p class="text-dark text-center font-weight-bold">{{ __('classrooms.delete_confirm') }} <span class="text-danger">{{ $classroom->getTranslation('name',App::getLocale()) }}</span> {{ App::getLocale() == 'ar' ? '؟' : '?' }}</p>
-                            <input type="hidden" name="prod_id" id="prod_id" value="">
+                            <p class="text-dark text-center font-weight-bold">{{ __('classrooms.delete_confirm') }} <span class="text-danger">{{ $classroom->name }}</span> {{ App::getLocale() == 'ar' ? '؟' : '?' }}</p>
+{{--                            <input type="hidden" name="prod_id" id="prod_id" value="">--}}
                         </div>
 
                     </div>

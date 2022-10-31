@@ -27,7 +27,6 @@ class CreateClassroomsTable extends Migration
                 ->on('stages')
                 ->cascadeOnDelete()
                 ->cascadeOnUpdate();
-            $table->timestamps();
         });
     }
 

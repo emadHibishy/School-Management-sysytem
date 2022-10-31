@@ -18,7 +18,6 @@ class CreateAttachementsTable extends Migration
             $table->longText('url');
             $table->unsignedBigInteger('attachmentable_id');
             $table->string('attachementable_type');
-            $table->timestamps();
         });
     }
 

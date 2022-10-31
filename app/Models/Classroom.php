@@ -9,10 +9,8 @@ use Spatie\Translatable\HasTranslations;
 class Classroom extends Model
 {
     use HasFactory;
-    use HasTranslations;
-
-    public $translatable = ['name'];
     protected $fillable = ['name', 'status', 'stage_id', 'grade_id'];
+    public $timestamps = false;
 
     public function Stage()
     {

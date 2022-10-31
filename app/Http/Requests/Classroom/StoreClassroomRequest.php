@@ -24,8 +24,7 @@ class StoreClassroomRequest extends FormRequest
     public function rules()
     {
         return [
-            'classroom_name_ar' => 'required',
-            'classroom_name_en' => 'required',
+            'classroom_name' => 'required',
             'grade_id' => 'required|integer',
             'stage_id' => 'required|integer',
             'staus' => 'boolean'
@@ -35,8 +34,7 @@ class StoreClassroomRequest extends FormRequest
     public function messages() :array
     {
         return [
-            'classroom_name_ar.required' => __('classrooms.valid_required_ar_name') ,
-            'classroom_name_en.required' => __('classrooms.valid_required_en_name') ,
+            'classroom_name.required' => __('classrooms.valid_required_name') ,
             'grade_id.required' => __('classrooms.valid_required_grade'),
             'grade_id.integer' => __('classrooms.valid_integer_grade'),
             'stage_id.required' => __('classrooms.valid_required_stage'),

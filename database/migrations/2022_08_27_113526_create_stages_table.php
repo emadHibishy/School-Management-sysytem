@@ -17,7 +17,6 @@ class CreateStagesTable extends Migration
             $table->id();
             $table->string('name')->unique();
             $table->text('notes');
-            $table->timestamps();
         });
     }
 

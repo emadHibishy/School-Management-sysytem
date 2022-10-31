@@ -27,8 +27,7 @@ return [
 
 
     //validation
-    'valid_required_ar_name' => 'Classroom In Arabic Is Required.',
-    'valid_required_en_name' => 'Classroom In English Is Required.',
+    'valid_required_name' => 'Classroom In Arabic Is Required.',
     'valid_required_grade' => 'Grade Is Required.',
     'valid_integer_grade' => 'Please, Select one of the Grades Options.',
     'valid_required_stage' => 'Stage Is Required.',

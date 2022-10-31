@@ -13,6 +13,7 @@ class Stage extends Model
 
     public $translatable = ['name', 'notes'];
     protected $fillable = ['name', 'notes'];
+    public $timestamps = false;
 
     public function grades()
     {

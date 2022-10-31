@@ -48,34 +48,6 @@
 
                                     </div>
                                 </div>
-                                            {{--                                <div data-repeater-item>--}}
-{{--                                    <form class=" row mb-30">--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <input class="form-control" type="text" placeholder="Name" />--}}
-{{--                                        </div>--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <input class="form-control" type="text" placeholder="Email" />--}}
-{{--                                        </div>--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <textarea class="form-control" placeholder="Your Message">Your Message</textarea>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <input class="form-control" type="text" value="+(704) 279-1249" />--}}
-{{--                                        </div>--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <div class="box">--}}
-{{--                                                <select name="select-input" class="fancyselect">--}}
-{{--                                                    <option value="1">Sex</option>--}}
-{{--                                                    <option value="2">Male</option>--}}
-{{--                                                    <option value="3">Female</option>--}}
-{{--                                                </select>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="col-lg-2">--}}
-{{--                                            <input class="btn btn-danger btn-block" data-repeater-delete type="button" value="Delete"/>--}}
-{{--                                        </div>--}}
-{{--                                    </form>--}}
-{{--                                </div>--}}
                             </div>
                             <div class="row mt-20">
                                 <div class="col-12">

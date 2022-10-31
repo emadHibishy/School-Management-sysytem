@@ -13,6 +13,7 @@ class Grade extends Model
 
     public $translatable = ['name'];
     protected $fillable = ['name', 'stage_id'];
+    public $timestamps = false;
 
     public function Stage()
     {

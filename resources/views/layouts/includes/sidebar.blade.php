@@ -21,6 +21,17 @@
                 </ul>
             </li>
 
+            <!-- School Years -->
+            <li>
+                <a href="javascript:void(0);" data-toggle="collapse" data-target="#school_years_list">
+                    <div class="pull-left"><i class="fa fa-hourglass"></i><span class="right-nav-text">{{ __('school_years.school_years') }}</span></div>
+                    <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
+                </a>
+                <ul id="school_years_list" class="collapse" data-parent="#sidebarnav">
+                    <li><a href="{{ route('school_years.index') }}">{{ __('school_years.school_years_list') }}</a></li>
+                </ul>
+            </li>
+
             <!-- grades -->
             <li>
                 <a href="javascript:void(0);" data-toggle="collapse" data-target="#grade_list">
@@ -62,6 +73,7 @@
                 </a>
                 <ul id="teachers" class="collapse" data-parent="#sidebarnav">
                     <li><a href="{{ route('teachers.index') }}">{{ __('teachers.teachers_list') }}</a></li>
+                    <li><a href="{{ route('distribution.index') }}">{{ __('distribution.distribution') }}</a></li>
                 </ul>
             </li>
 
@@ -101,12 +113,12 @@
 
             <!-- subjects -->
             <li>
-                <a href="javascript:void(0);" data-toggle="collapse" data-target="#elements">
+                <a href="javascript:void(0);" data-toggle="collapse" data-target="#subjects">
                     <div class="pull-left"><i class="fa fa-book"></i><span class="right-nav-text">{{ __('dashboard.subjects') }}</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="elements" class="collapse" data-parent="#sidebarnav">
-                    <li><a href="{{ route('stages.index') }}">{{ __('stages.stages_list') }}</a></li>
+                <ul id="subjects" class="collapse" data-parent="#sidebarnav">
+                    <li><a href="{{ route('subjects.index') }}">{{ __('subjects.subjects_list') }}</a></li>
                 </ul>
             </li>
 

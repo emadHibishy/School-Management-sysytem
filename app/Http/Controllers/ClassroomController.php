@@ -46,7 +46,7 @@ class ClassroomController extends Controller
 //            foreach ($classrooms as $classroom)
 //            {
                 Classroom::create([
-                    'name' => ['ar' => $request->classroom_name_ar , 'en' => $request->classroom_name_en],
+                    'name' => $request->classroom_name ,
                     'grade_id' => $request->grade_id,
                     'stage_id' => $request->stage_id,
                 ]);
@@ -93,7 +93,7 @@ class ClassroomController extends Controller
     {
         try {
             $classroom->update([
-                'name' => ['ar' => $request->classroom_name_ar , 'en' => $request->classroom_name_en],
+                'name' => $request->classroom_name ,
                 'grade_id' => $request->grade_id,
                 'stage_id' => $request->stage_id,
                 'status' => $request->status ? 1 : 0

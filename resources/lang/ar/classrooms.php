@@ -27,8 +27,7 @@ return [
 
 
     //validation
-    'valid_required_ar_name' => 'يرجى إدخال اسم الفصل المدرسى بالعربية.',
-    'valid_required_en_name' => 'يرجى إدخال اسم الفصلالمدرسى بالإنجليزية.',
+    'valid_required_name' => 'يرجى إدخال اسم الفصل المدرسى بالعربية.',
     'valid_required_grade' => 'يرجى ادخال الصف الدراسى.',
     'valid_integer_grade' => 'يرجى اختيار صف دراسى مناسبة.',
     'valid_required_stage' => 'يرجى ادخال المرحلة الدراسية.',

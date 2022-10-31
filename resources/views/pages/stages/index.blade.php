@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-     - {{ __('stages.stages') }}
+     {{ __('stages.stages') }}
 @endsection
 
 

@@ -2,8 +2,11 @@
 
 use App\Http\Controllers\ClassroomController;
 use App\Http\Controllers\GradeController;
+use App\Http\Controllers\SchoolYearController;
 use App\Http\Controllers\StageController;
+use App\Http\Controllers\SubjectController;
 use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\TeachersDistributionController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -47,6 +50,13 @@ Route::group(
         Route::view('add_parent', 'livewire.parent_details')->name('add_parent');
 
         Route::resource('teachers', TeacherController::class);
+
+        Route::resource('school_years', SchoolYearController::class);
+
+        Route::resource('subjects', SubjectController::class);
+
+        Route::resource('distribution', TeachersDistributionController::class);
+
 
 
     }

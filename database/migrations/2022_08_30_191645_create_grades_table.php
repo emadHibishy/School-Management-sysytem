@@ -21,7 +21,6 @@ class CreateGradesTable extends Migration
                 ->on('stages')
                 ->cascadeOnUpdate()
                 ->cascadeOnDelete();
-            $table->timestamps();
         });
     }
 

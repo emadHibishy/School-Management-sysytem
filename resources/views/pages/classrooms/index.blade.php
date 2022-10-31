@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-     - {{ __('classrooms.classrooms') }}
+     {{ __('classrooms.classrooms') }}
 @endsection
 
 
@@ -57,7 +57,7 @@
                                         @forelse($stage->Classrooms as $classroom)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
-                                                <td>{{ $classroom->getTranslation('name', app()->getLocale()) }}</td>
+                                                <td>{{ $classroom->name }}</td>
                                                 <td>{{ $classroom->Grade->getTranslation('name', app()->getLocale()) }}</td>
                                                 <td>
                                                     @if($classroom->status == 1)

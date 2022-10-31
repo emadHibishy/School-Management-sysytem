@@ -13,4 +13,5 @@ class Religion extends Model
 
     public $translatable = ['name'];
     protected $fillable = ['name'];
+    public $timestamps = false;
 }

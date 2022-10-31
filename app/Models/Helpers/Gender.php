@@ -13,4 +13,5 @@ class Gender extends Model
 
     protected $fillable = ['name'];
     public $translatable = ['name'];
+    public $timestamps = false;
 }
